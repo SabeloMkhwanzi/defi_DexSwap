@@ -1,6 +1,8 @@
 {
   "name": "dexswap-defi",
   "version": "0.1.0",
+  "description": "An Ethereum DEX-defi Project ",
+  "author": "Sabelo",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,9 +11,24 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@chakra-ui/icons": "^1.0.15",
+    "@chakra-ui/react": "^1.6.9",
+    "@emotion/react": "^11.4.1",
+    "@emotion/styled": "^11.3.0",
+    "@truffle/hdwallet-provider": "^1.5.1",
+    "@walletconnect/web3-provider": "^1.6.6",
+    "axios": "^0.23.0",
+    "chai": "^4.3.4",
+    "framer-motion": "^4.1.17",
+    "identicon": "^3.0.1",
+    "moralis": "0.0.88",
     "next": "11.1.2",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-icons": "^4.3.1",
+    "react-moralis": "^0.2.6",
+    "truffle": "^5.4.14",
+    "web3": "^1.0.0-beta.55"
   },
   "devDependencies": {
     "eslint": "8.0.0",
