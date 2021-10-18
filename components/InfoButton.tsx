@@ -13,7 +13,7 @@ import Logout from './logout';
 
 const InfoButton = () => {
     return (
-      <HStack pl="3" pr="3" paddingTop="3" float="right"
+      <HStack pl="3" pr="3" paddingTop="3" float="right" bg="gray.800"
        >
       {/* //   <Button
       //     disabled
