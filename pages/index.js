@@ -126,7 +126,7 @@ constructor(props) {
 
     return ( 
       // App Landing Page      
-      <Center Flex align={'center'} bg={('gray.50', 'gray.800')} flexWrap="wrap" marginBottom="25" >
+      <Center flex align={'center'} bg={('gray.50', 'gray.800')} flexWrap="wrap" marginBottom="25" >
          {/*Information, ConnectWallet-Button and Network Section */}                                            
         <Stack spacing={7} mx={'auto'} maxW={'lg'} py={20} pl="10" pr="5">  {/* Trading Platform Header  */}
           <Header account={this.state.account} ethBalance={this.state.ethBalance} /> {/* App Title and Heading Section */}
