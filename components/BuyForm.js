@@ -26,6 +26,7 @@ class BuyForm extends Component {
           <Stack spacing={1}>
             {/* TokenList and PriceList Section 1 */}
             <Container
+              borderColor="gray.700"
               borderWidth={1}
               borderRadius={20}
               paddingBlock={2}
@@ -35,6 +36,7 @@ class BuyForm extends Component {
               <HStack spacing={20} >
                 {/* TokenList selection Section 1 */}
                 <Container
+                  bgColor='gray.600'
                   borderWidth={1}
                   borderRadius={20}
                   borderColor="gray.600"
@@ -88,6 +90,7 @@ class BuyForm extends Component {
                           
             {/* TokenList and PriceList Section 2 DexSwap */}         
             <Container
+              borderColor="gray.700"
               borderWidth={1}
               borderRadius={20}
               paddingBlock={4}
@@ -97,6 +100,7 @@ class BuyForm extends Component {
               <HStack spacing={20} >
                 {/* TokenList selection Section 2 */}
                 <Container
+                  bgColor='gray.600'
                   borderWidth={1}
                   borderRadius={20}
                   borderColor="gray.600"
