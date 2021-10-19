@@ -35,7 +35,7 @@ const InfoButton = () => {
             paddingRight="6"
             rightIcon={<AiOutlineEllipsis color="white" size="40px" />}>
                 </MenuButton>
-                <MenuList>
+                <MenuList bg="gray.600" >
                     <MenuItem>About</MenuItem>
                     <MenuItem>Docs</MenuItem>
                     <MenuItem>Code</MenuItem>
