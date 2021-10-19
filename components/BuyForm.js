@@ -44,7 +44,8 @@ class BuyForm extends Component {
                   height={12}
                   width="13rem"
                   as={Button}
-                  rightIcon={<ChevronDownIcon />}
+                  rightIcon={<ChevronDownIcon color="white" />}
+                  _hover={{bg:'gray.900'}}
                 >
                 <Flex>
                     <Image
@@ -73,6 +74,7 @@ class BuyForm extends Component {
                   mr="2rem"
                   >
                   <Input
+                     color="gray.200"
                      type="number"
                       placeholder="0.0"
                       onChange={(event) => {
@@ -109,6 +111,7 @@ class BuyForm extends Component {
                   height={12}
                   width="14rem"
                   as={Button}
+                  _hover={{bg:'gray.900'}}
                 >
                 <Flex>
                     <Image
@@ -136,6 +139,7 @@ class BuyForm extends Component {
                   mr="2rem"
                 >
                   <Input
+                    color="gray.200"
                     type="number"
                     placeholder="0.0"
                     value={this.state.output}
