@@ -29,6 +29,7 @@ const InfoButton = () => {
         {/* Information Section */}
         <Menu>
           <MenuButton
+             _hover={{ bg: 'gray.500'}}>
             bg='gray.600'
             as={Button}
             maxW="12"
