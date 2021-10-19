@@ -1,4 +1,5 @@
 //import Home from '.';
+import { Box } from '@chakra-ui/layout';
 import Footer from '../components/Footer.tsx';
 import { MoralisProvider } from "react-moralis";
 import { ChakraProvider } from "@chakra-ui/react"
@@ -14,9 +15,11 @@ function MyApp({ Component, pageProps }) {
     
   <MoralisProvider appId={moralisAppId} serverUrl={moralisServerURL}>
       <ChakraProvider>
+         <Box bg="gray.800" >
           <InfoButton /><Navbar />
         <Component {...pageProps} />
        <Footer />
+         </Box> 
     </ChakraProvider>
   </MoralisProvider>
   )
