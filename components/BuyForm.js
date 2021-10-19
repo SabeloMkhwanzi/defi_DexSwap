@@ -39,7 +39,7 @@ class BuyForm extends Component {
                   bgColor='gray.600'
                   borderWidth={1}
                   borderRadius={20}
-                  borderColor="gray.200"
+                  borderColor="gray.500"
                   paddingBlock={1}
                   height={12}
                   width="13rem"
@@ -106,7 +106,7 @@ class BuyForm extends Component {
                   bgColor='gray.600'
                   borderWidth={1}
                   borderRadius={20}
-                  borderColor="gray.200"
+                  borderColor="gray.500"
                   paddingBlock={1}
                   height={12}
                   width="14rem"
