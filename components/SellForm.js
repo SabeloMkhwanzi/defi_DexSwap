@@ -111,7 +111,7 @@ class SellForm extends Component {
                   height={12}
                   width="13rem"
                   as={Button}
-                  rightIcon={<ChevronDownIcon />}
+                  rightIcon={<ChevronDownIcon color="white" />}
                   _hover={{bg:'gray.900'}}
                 >
                 <Flex>
