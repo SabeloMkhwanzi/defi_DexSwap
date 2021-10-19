@@ -25,6 +25,7 @@ class SellForm extends Component {
         <Stack spacing={1}>
             {/* TokenList and PriceList Section 1 */}
             <Container
+              borderColor="gray.700"
               borderWidth={1}
               borderRadius={20}
               paddingBlock={4}
@@ -35,14 +36,15 @@ class SellForm extends Component {
               <HStack spacing={20} >
                 {/* TokenList selection Section 1 */}
                 <Container
+                  bgColor='gray.600'
                   borderWidth={1}
                   borderRadius={20}
-                  borderColor="gray.600"
+                  borderColor="gray.500"
                   paddingBlock={1}
                   height={12}
                   width="14rem"
                   as={Button}
-                  
+                  _hover={{bg:'gray.900'}}
                 >
                 <Flex>
                     <Image
@@ -54,6 +56,7 @@ class SellForm extends Component {
                       />                     
                     <Box paddingTop="2" ml="1">
                       <Text
+                        color="white"
                         fontSize="sm"
                         fontWeight="bold">
                         DEXS
@@ -70,6 +73,7 @@ class SellForm extends Component {
                   mr="2rem"
                   >
                   <Input
+                     color="gray.200" 
                      type="number"
                       placeholder="0.0"
                       onChange={(event) => {
@@ -80,7 +84,7 @@ class SellForm extends Component {
                     }}
                     ref={(input) =>{this.input = input}}
                   />
-                  <Text fontSize="small" as="samp">Balance:{window.web3.utils.fromWei(this.props.tokenBalance, 'Ether')}</Text>
+                  <Text fontSize="small" color="white" as="samp">Balance:{window.web3.utils.fromWei(this.props.tokenBalance, 'Ether')}</Text>
             </NumberInput>
                   
             </HStack>
@@ -89,6 +93,7 @@ class SellForm extends Component {
                
             {/* TokenList and PriceList Section 2 DexSwap */}         
             <Container
+              borderColor="gray.700"
               borderWidth={1}
               borderRadius={20}
               paddingBlock={2}
@@ -98,14 +103,16 @@ class SellForm extends Component {
               <HStack spacing={20} >
                 {/* TokenList selection Section 2 */}
                 <Container
+                  bgColor='gray.600'
                   borderWidth={1}
                   borderRadius={20}
-                  borderColor="gray.600"
+                  borderColor="gray.500"
                   paddingBlock={1}
                   height={12}
                   width="13rem"
                   as={Button}
                   rightIcon={<ChevronDownIcon />}
+                  _hover={{bg:'gray.900'}}
                 >
                 <Flex>
                     <Image
@@ -118,6 +125,7 @@ class SellForm extends Component {
                       />                     
                     <Box paddingTop="2" ml="1">
                       <Text
+                        color="white"
                         fontSize="sm"
                         fontWeight="bold">
                         ETH 
@@ -133,12 +141,13 @@ class SellForm extends Component {
                   mr="2rem"
                 >
                   <Input
+                    color="gray.200"
                     type="number"
                     placeholder="0.0"
                     value={this.state.output}
                     disabled
                   />
-                  <Text fontSize="small" letterSpacing={1} as="samp" >Balance:{window.web3.utils.fromWei(this.props.ethBalance, 'Ether')}</Text>      
+                  <Text fontSize="small" color="white" letterSpacing={1} as="samp" >Balance:{window.web3.utils.fromWei(this.props.ethBalance, 'Ether')}</Text>      
             </NumberInput>          
             </HStack>
             </Container>
@@ -149,7 +158,7 @@ class SellForm extends Component {
                 direction={{ base: 'column', sm: 'row' }}
                 align={'start'}
                 justify={'space-between'}>
-                <Text as="samp" fontSize="small" letterSpacing={0.5}>Exchange Rate</Text>
+                <Text as="samp" color="white" fontSize="small" letterSpacing={0.5}>Exchange Rate</Text>
                 <Text as="samp" fontSize="small" color={'red.400'}>100 DEXT = 1 ETH </Text>
               </Stack>
               
