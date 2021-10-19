@@ -30,7 +30,6 @@ const InfoButton = () => {
         <Menu>
           <MenuButton
             _hover={{bg='gray.400'}}
-            color="black"
             bg='gray.600'
             as={Button}
             maxW="12"
