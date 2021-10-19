@@ -37,10 +37,10 @@ const InfoButton = () => {
                 </MenuButton>
                 <MenuList bg="gray.600" borderColor="gray.600" >
                     <MenuItem color="black" fontWeight="bold">About</MenuItem>
-                    <MenuItemcolor="black" fontWeight="bold">Docs</MenuItem>
-                    <MenuItemcolor="black" fontWeight="bold">Code</MenuItem>
-                    <MenuItemcolor="black" fontWeight="bold">Twitter</MenuItem>
-                    <MenuItemcolor="black" fontWeight="bold">Github</MenuItem>
+                    <MenuItem color="black" fontWeight="bold">Docs</MenuItem>
+                    <MenuItem color="black" fontWeight="bold">Code</MenuItem>
+                    <MenuItem color="black" fontWeight="bold">Twitter</MenuItem>
+                    <MenuItem color="black" fontWeight="bold">Github</MenuItem>
                     {/* <MenuItem>Light Theme</MenuItem> */}
                     <MenuItem><Logout /></MenuItem>
                 </MenuList>
