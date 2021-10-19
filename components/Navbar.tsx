@@ -14,8 +14,8 @@ const Navbar = () => {
           borderColor="purple.500"
           >
           <HStack spacing={2}> 
-          <Button bg="gray.800  maxW="20" >Swap</Button>
-          <Button bg="gray.800 maxW="20">Charts</Button>
+          <Button bg="gray.700" maxW="20" >Swap</Button>
+          <Button bg="gray.700"  maxW="20">Charts</Button>
           </HStack>
       </Container>       
       </Stack>
