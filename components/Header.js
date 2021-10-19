@@ -13,7 +13,7 @@ class Header extends Component {
     render() {
     return (     
         <Stack align={'center'}>
-          <Heading color={'white'} fontSize={'4xl'}>DexSwap</Heading>  
+          <Heading color='white' fontSize={'4xl'}>DexSwap</Heading>  
           <Text as="samp" color={'gray.400'} letterSpacing={1}
           >{this.props.account}
         </Text>
