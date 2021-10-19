@@ -4,7 +4,7 @@ import { Stack, Container, HStack, Button } from '@chakra-ui/react';
 
 const Navbar = () => {
     return (
-      <Stack paddingTop="3" pl="4"  float="left">
+      <Stack paddingTop="3" pl="4"  float="left" bg='gray.800'>
           <Container
               maxW="200"  
               borderWidth={1}
