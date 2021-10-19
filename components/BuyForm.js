@@ -56,6 +56,7 @@ class BuyForm extends Component {
                       />                     
                     <Box paddingTop="2" ml="1">
                       <Text
+                        color="white"
                         fontSize="sm"
                         fontWeight="bold">
                         ETH
@@ -82,7 +83,7 @@ class BuyForm extends Component {
                     }}
                     ref={(input) =>{this.input = input}}
                   />
-                  <Text fontSize='small' letterSpacing={1} as="samp">Bal:{window.web3.utils.fromWei(this.props.ethBalance, 'Ether')}</Text>
+                  <Text fontSize='small' color="white" letterSpacing={1} as="samp">Bal:{window.web3.utils.fromWei(this.props.ethBalance, 'Ether')}</Text>
             </NumberInput>                 
             </HStack>
             </Container>
@@ -119,6 +120,7 @@ class BuyForm extends Component {
                       />                     
                     <Box paddingTop="2" ml="1">
                       <Text
+                        color="white"
                         fontSize="sm"
                         fontWeight="bold">
                         DEXS 
@@ -139,7 +141,7 @@ class BuyForm extends Component {
                     value={this.state.output}
                     disabled
                   />
-                  <Text fontSize="small" as="samp" letterSpacing={1}>Balance:{window.web3.utils.fromWei(this.props.tokenBalance, 'Ether')}</Text>      
+                  <Text fontSize="small" color="white" as="samp" letterSpacing={1}>Balance:{window.web3.utils.fromWei(this.props.tokenBalance, 'Ether')}</Text>      
             </NumberInput>          
             </HStack>
             </Container>
@@ -155,7 +157,7 @@ class BuyForm extends Component {
                 direction={{ base: 'column', sm: 'row' }}
                 align={'start'}
                 justify={'space-between'}>
-                <Text as="samp" fontSize="small"  letterSpacing={0.5}>Exchange Rate</Text>
+                <Text as="samp" color="white" fontSize="small"  letterSpacing={0.5}>Exchange Rate</Text>
                 <Text as="samp" fontSize="small" color={'red.400'}>1 ETH = 100 DEXS</Text>             
               </Stack>
               
