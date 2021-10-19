@@ -14,8 +14,12 @@ const Navbar = () => {
           borderColor="purple.500"
           >
           <HStack spacing={2}> 
-          <Button bg="gray.700" maxW="20" color="white">Swap</Button>
-          <Button bg="gray.700"  maxW="20" color="white">Charts</Button>
+          <Button bg="gray.700" maxW="20" color="white" _hover={{
+                bg: 'gray.500',
+                }}>Swap</Button>
+          <Button bg="gray.700"  maxW="20" color="white" _hover={{
+                bg: 'gray.500',
+                }}>Charts</Button>
           </HStack>
       </Container>       
       </Stack>
