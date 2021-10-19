@@ -29,13 +29,15 @@ const InfoButton = () => {
         {/* Information Section */}
         <Menu>
           <MenuButton
+            _hover={{bg='gray.400'}}
+            color="black"
             bg='gray.600'
             as={Button}
             maxW="12"
             paddingRight="6"
-            rightIcon={<AiOutlineEllipsis color="white" _hover={{color:'black'}} size="40px" />}>
+            rightIcon={<AiOutlineEllipsis color="white" size="40px" />}>
                 </MenuButton>
-                <MenuList>
+                <MenuList bg="gray.600">
                     <MenuItem>About</MenuItem>
                     <MenuItem>Docs</MenuItem>
                     <MenuItem>Code</MenuItem>
