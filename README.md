@@ -32,7 +32,7 @@ Decentralized Exchanges (DEx) are one of the essential functions of DeFi, with t
  :zap: Solidity development environment - Truffle\
  :zap: Morials - Metamask Authentication\
  :zap: Ethereum Web Client Library - Web3.js\
- :zap: UI Design - Chakra UI\
+ :zap:  fontend design - Chakra UI\
  :zap: Host\Deployment - Vercel
  
 
