@@ -33,7 +33,8 @@ Decentralized Exchanges (DEx) are one of the essential functions of DeFi, with t
  :zap: Morials - Metamask Authentication\
  :zap: Ethereum Web Client Library - Web3.js\
  :zap: UI Design - Chakra UI\
- :zap: Host\Deployment - Vercel
+ :zap: Hos - Vercel
+ 
  
 
 ### Lesson learned on this project
